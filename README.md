@@ -57,7 +57,7 @@ Before running the Streamlit application, make sure you have the following requi
 
 Create a new Python virtual environment and activate it.
 
-Clone the repository to your local machine: 
+Clone the repository to your local machine: https://github.com/AlgoDM-Fall2023-Team7/Assignment-1.git
 
 Before running the Streamlit application, add your Snowflake credentials to a .env file in the project directory. Include the following information:
 ##### .env file
