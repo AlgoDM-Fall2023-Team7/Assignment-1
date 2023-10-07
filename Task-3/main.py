@@ -8,6 +8,12 @@ from queries import queries  # Import the queries dictionary
 
 load_dotenv()  # Load environment variables from .env
 
+# Define a function to execute SQL queries
+def execute_query(engine, sql_query):
+    with engine.connect() as conn:
+        result_df = pd.read_sql_query(sql_query, conn)
+    return result_df
+
 # Define a function to dispose of the engine and close the connection
 def close_connection(engine):
     if engine is not None:  # Check if engine is created
