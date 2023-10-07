@@ -44,9 +44,34 @@
 - The application should allow users to change query substitution parameters from the Streamlit frontend.
 
 ## Usage
+#### Requirements to Run the App
+Before running the Streamlit application, make sure you have the following requirements installed:
 
-- Provide instructions for running the Streamlit application and marketing dashboard prototype.
-- Include any necessary setup steps or environment configurations.
+- Your Favorite IDE or Text Editor: Use an integrated development environment (IDE) or a text editor of your choice for code editing.
+
+- Python 3.8 - Python 3.11: Ensure that you have Python installed on your system, preferably in the version range from Python 3.8 to Python 3.11.
+
+- Snowflake Account: You need access to a Snowflake account to connect to the Snowflake database.
+
+- PIP: Ensure that PIP, the Python package manager, is installed on your system.
+
+Create a new Python virtual environment and activate it.
+
+Install Streamlit and other required packages.
+
+Before running the Streamlit application, add your Snowflake credentials to a .env file in the project directory. Include the following information:
+##### .env file
+- SNOWFLAKE_ACCOUNT = your_account_url
+- SNOWFLAKE_USER = your_username
+- SNOWFLAKE_PASSWORD = your_password
+- SNOWFLAKE_ROLE = your_role
+- SNOWFLAKE_WAREHOUSE = your_warehouse
+- SNOWFLAKE_DATABASE = your_database
+- SNOWFLAKE_SCHEMA = your_schema
+
+Once you have set up your environment and configured Snowflake credentials, you can run the Streamlit application using the following command:
+streamlit run main.py
+
 
 ## Contributors
 
