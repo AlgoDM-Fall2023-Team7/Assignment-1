@@ -78,6 +78,19 @@ st.markdown("""
         background-color: #FAF5E9;
     }
 </style>
+
+# Query output
+st.markdown("<h4 style='text-align: center;'>Query Output</h4>", unsafe_allow_html=True)
+
+# Create a dropdown for selecting queries
+selected_query = st.sidebar.selectbox("Select A Query:", list(queries.keys()))
+
+# Render the selected query input form
+render_query_input(selected_query, queries[selected_query])
+
+# Close the connection and dispose of the engine when the app is done
+close_connection(engine)
+
 """, unsafe_allow_html=True)
 
 
