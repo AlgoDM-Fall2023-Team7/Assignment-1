@@ -1,4 +1,4 @@
-## Assignment 1 - Part 1
+## Assignment 1 - Task 1
 
 ### Company Evaluation of Best Buy - https://www.bestbuy.com/
 
@@ -25,7 +25,7 @@
 #### 7. Technology Stack
 - After reviewing the company's job/career site (https://www.stitchfix.com/), list the technologies and programmatic services mentioned. Include any relevant findings.
 
-## Assignment 1 - Part 2 
+## Assignment 1 - Task 2 
 
 ### Marketing Dashboard Prototype - https://shorturl.at/rCG24
 #### Design
@@ -34,7 +34,7 @@
 - Explain the purpose and relevance of the 10 assigned SQL queries in building the dashboard.
   - Categorize each query according to the areas they serve.
 
-## Assignment 1 - Part 3
+## Assignment 1 - Task 3
 
 ### Streamlit Application
 
