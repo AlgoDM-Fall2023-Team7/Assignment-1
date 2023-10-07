@@ -27,7 +27,7 @@
 
 ## Assignment 1 - Task 2 
 
-### Marketing Dashboard Prototype - https://shorturl.at/rCG24
+### Marketing Dashboard Prototype - [https://shorturl.at/rCG24](https://codelabs-preview.appspot.com/?file_id=1yB5OXC_DoSnxpmB4hzcaDQbirxI9a2yHHqBlbd9mST0#0)
 #### Design
 - Utilize the TPC-DS Dataset from Snowflake to design a marketing dashboard.
 - Discuss the use case and functionality of the dashboard.
@@ -78,3 +78,6 @@ streamlit run main.py
 - Aishwarya SVS
 - Arjun Janardhan
 - Sanidhya Mathur
+
+## Final Google CodeLab Link
+https://codelabs-preview.appspot.com/?file_id=1yB5OXC_DoSnxpmB4hzcaDQbirxI9a2yHHqBlbd9mST0#0
