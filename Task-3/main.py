@@ -8,6 +8,11 @@ from queries import queries  # Import the queries dictionary
 
 load_dotenv()  # Load environment variables from .env
 
+# Define a function to dispose of the engine and close the connection
+def close_connection(engine):
+    if engine is not None:  # Check if engine is created
+        engine.dispose()
+
 # Set the title of the app
 st.sidebar.markdown("<h1 style='text-align: center;'>FlakeQuery</h1>", unsafe_allow_html=True)
 
@@ -28,3 +33,5 @@ st.markdown("""
 engine = create_engine(
     f'snowflake://{os.getenv("SNOWFLAKE_USER")}:{os.getenv("SNOWFLAKE_PASSWORD")}@{os.getenv("SNOWFLAKE_ACCOUNT_IDENTIFIER")}/?warehouse={os.getenv("SNOWFLAKE_WAREHOUSE")}&database={os.getenv("SNOWFLAKE_DATABASE")}&schema={os.getenv("SNOWFLAKE_SCHEMA")}'
 )
+
+
