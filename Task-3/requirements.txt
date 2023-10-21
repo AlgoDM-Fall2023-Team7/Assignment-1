@@ -1,5 +1,4 @@
 sqlalchemy
-os
 pandas
 dotenv
 streamlit
