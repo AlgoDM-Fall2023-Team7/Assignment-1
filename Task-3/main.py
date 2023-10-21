@@ -78,6 +78,7 @@ st.markdown("""
         background-color: #FAF5E9;
     }
 </style>
+""", unsafe_allow_html=True)
 
 # Query output
 st.markdown("<h4 style='text-align: center;'>Query Output</h4>", unsafe_allow_html=True)
@@ -90,7 +91,3 @@ render_query_input(selected_query, queries[selected_query])
 
 # Close the connection and dispose of the engine when the app is done
 close_connection(engine)
-
-""", unsafe_allow_html=True)
-
-
